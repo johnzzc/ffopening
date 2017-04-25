@@ -1,0 +1,51 @@
+.flowplayer {
+	width: 80%; max-width: 800px; background-size: cover; background-color: rgb(34, 34, 34);
+}
+.flowplayer .fp-controls {
+	opacity: 0.8; background-color: rgb(115, 115, 115);
+}
+.flowplayer .fp-progress {
+	opacity: 1; background-color: rgb(90, 107, 135);
+}
+.flowplayer .fp-buffer {
+	opacity: 1; background-color: rgb(255, 255, 255);
+}
+.flowplayer .fp-time em {
+	width: 45px; height: 20px; text-align: center; bottom: 1px; line-height: 10px; position: absolute;
+}
+.flowplayer .fp-remaining {
+	right: 116px; color: rgb(238, 238, 238);
+}
+.flowplayer .fp-duration {
+	right: 116px; color: rgb(238, 238, 238);
+}
+.flowplayer .fp-timeline {
+	border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;
+}
+.flowplayer .fp-buffer {
+	border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;
+}
+.flowplayer .fp-progress {
+	border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;
+}
+.flowplayer .fp-volumeslider {
+	border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;
+}
+.flowplayer .fp-volumelevel {
+	border-radius: 0px; -webkit-border-radius: 0px; -moz-border-radius: 0px;
+}
+#downloadLink {
+	background-position: 0px; left: 30px; width: 20px; height: 8px; padding-bottom: 8px; display: none; background-image: url("download.png"); background-size: 20px auto; background-color: transparent;
+}
+#emailLink {
+	background-position: 0px; left: 7px; width: 22px; height: 7px; padding-bottom: 8px; display: none; background-image: url("email.png"); background-size: 22px auto; background-color: transparent;
+}
+#css-poster {
+	background: url("/media/img/demos/black_big.jpg") no-repeat 0px 0px / 200% rgb(0, 0, 0); -webkit-transition: background 1s; -moz-transition: background 1s;
+}
+.is-poster#css-poster {
+	background-size: 100%;
+}
+.playerDropshadow {
+	background: url("/static-assets/images/mgs/shadow.gif") no-repeat right bottom; margin: 0px auto; width: 608px; padding-right: 6px; padding-bottom: 6px; clear: left;
+}

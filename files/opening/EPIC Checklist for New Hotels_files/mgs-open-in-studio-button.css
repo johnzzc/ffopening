@@ -1,0 +1,24 @@
+@font-face {
+	font-family: FontAwesome;
+	src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.6.3) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.6.3) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.6.3) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.6.3) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+.mgs-studio-edit {
+	background: rgb(131, 167, 177); border-radius: 0px 0px 50%; transition:opacity 0.8s; top: 0px; width: 36px; height: 36px; display: block; position: fixed; z-index: 10; opacity: 0.7; box-shadow: 3px 3px 5px #bbbbbb;
+}
+.mgs-studio-edit:hover {
+	opacity: 1;
+}
+.mgs-studio-edit .icon {
+	font: 14px FontAwesome; position: relative; font-size-adjust: none; font-stretch: normal;
+}
+.mgs-studio-edit .icon::before {
+	left: 10px; top: 7px; color: rgb(255, 255, 255); font-size: 18px; position: absolute; content: "\f040";
+}
+@media print
+{
+.mgs-studio-edit {
+	display: none !important;
+}
+}

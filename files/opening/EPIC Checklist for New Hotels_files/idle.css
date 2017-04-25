@@ -1,0 +1,15 @@
+.session-expire-wrapper {
+	display: none;
+}
+.session-expire {
+	text-align: center; font-family: "PT Sans", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.session-expire p {
+	margin: 10px 0px;
+}
+.session-expire [data-marriott-action='idletimer'] {
+	padding-bottom: 10px; font-size: 40px;
+}
+.session-expire .btn {
+	background: rgb(131, 167, 177); padding: 20px; color: rgb(255, 255, 255); text-decoration: none; display: inline-block;
+}

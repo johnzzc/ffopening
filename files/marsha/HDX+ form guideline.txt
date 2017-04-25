@@ -1,0 +1,16 @@
+到MGS -- help desk express -- Help Desk Xpress+
+
+Form#1 Room pool -- 新开酒店的room pool（Coperate）
+#2,3，4不用
+Form#5 Create 1st new ID（Coperate）
+Form#7 Create rate programe
+Form#8，9 NPC- No Platinum 申请
+Form#10 Pack1
+Form#11，12 Renovation通知customer
+Form#13 加不同酒店进MARSHA来管理，要Coperate office申请，hotel不能申请
+Form#14-17 update DH screen
+Form#18 改Tax fees，service charge
+Form#19 On/off confirmation
+Form#20 VID change（改房型）
+Form#21 不用
+Form#22 Controlling Office
